@@ -25,6 +25,14 @@ export default function Footer() {
             <Link to="/">Home</Link>
             <Link to="/market">Market</Link>
             <Link to="/news">News</Link>
+            <Link to="/about">About Us</Link>
+          </div>
+
+          <div className="footer__links-group">
+            <h4>Company</h4>
+            <Link to="/about">Contact</Link>
+            <a href="mailto:sp.doublehshop@gmail.com">sp.doublehshop@gmail.com</a>
+            <Link to="/privacy">Privacy Policy</Link>
           </div>
 
           <div className="footer__links-group">

@@ -1,0 +1,77 @@
+.simple-page {
+  padding: 80px 0 60px;
+  position: relative;
+}
+
+.simple-page__header {
+  text-align: center;
+  max-width: 860px;
+  margin: 0 auto 28px;
+}
+
+.simple-page__title {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.simple-page__subtitle {
+  margin-top: 10px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.simple-page__content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.info-card {
+  background: var(--bg-glass);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-xl);
+  padding: 18px 18px;
+  box-shadow: var(--shadow-sm);
+}
+
+.info-card h2 {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-card ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.info-card p {
+  margin: 8px 0;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.info-card a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.info-card a:hover {
+  text-decoration: underline;
+}
+
+.muted {
+  opacity: 0.85;
+  font-size: 0.95rem;
+}

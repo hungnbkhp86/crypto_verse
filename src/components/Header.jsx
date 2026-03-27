@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaBitcoin, FaSearch, FaBars, FaTimes } from 'react-icons/fa';
-import { HiTrendingUp, HiNewspaper, HiChartBar } from 'react-icons/hi';
+import { HiTrendingUp, HiNewspaper, HiChartBar, HiInformationCircle } from 'react-icons/hi';
 import { searchCoins } from '../services/api';
 import './Header.css';
 
@@ -53,6 +53,7 @@ export default function Header() {
     { path: '/', label: 'Home', icon: <HiChartBar /> },
     { path: '/market', label: 'Market', icon: <HiTrendingUp /> },
     { path: '/news', label: 'News', icon: <HiNewspaper /> },
+    { path: '/about', label: 'About', icon: <HiInformationCircle /> },
   ];
 
   return (

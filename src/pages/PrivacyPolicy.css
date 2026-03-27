@@ -1,0 +1,34 @@
+@import './About.css';
+
+.policy-card {
+  background: var(--bg-glass);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-xl);
+  padding: 18px;
+  box-shadow: var(--shadow-sm);
+}
+
+.policy-card h2 {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+}
+
+.policy-card p,
+.policy-card li {
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.policy-card ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.policy-card a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.policy-card a:hover {
+  text-decoration: underline;
+}
